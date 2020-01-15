@@ -1,20 +1,28 @@
 body{
-    height:445px;
+    height:440px;
     width: 390px;
     padding: 20px;
-    border: 1px white solid;
-    border: double;
+    border: double black ;
     border-radius: 20px;
     background-color: black;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-image: url(fond.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:  455px 505px;  
+    background-position: top;
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
 }
 img{
     padding: 10x;
     margin-right: 20px;
-    border: solid white 1px;
+    border: solid black 1px;
     border-radius: 20px;
+    
 }
 .base{
     display: flex;
@@ -26,14 +34,14 @@ img{
     float: right;
     background-color: rgb(100, 100, 100);
     padding: 20px; 
-    border: white solid 1px;
+    border: black solid 1px;
     border-radius: 20px ; 
 }
 .info{
     display: flex;
     flex-direction: column;
     background-color: rgb(36, 31, 31);
-    border: white solid 1px;
+    border: black solid 1px;
     border-radius: 20px ;
     padding: 20px;
     margin-top: 20px;
@@ -44,7 +52,7 @@ img{
     display: flex;
     flex-direction: column;
     background-color: rgb(34, 22, 22);
-    border: white solid 1px;
+    border: black solid 1px;
     border-radius: 20px ;
     line-height: 26px;
     padding: 20px;
@@ -55,3 +63,4 @@ img{
 a{
     color: white;
 }
+
